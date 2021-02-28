@@ -2,7 +2,6 @@
     margin:0;
     padding:0;
     box-sizing: border-box;
-      -webkit-tap-highlight-color: rgba(0,0,0,0);
 }
 
 body{
@@ -17,10 +16,12 @@ body{
     justify-content: center;
     height: 100vh;
     background-color: rgba(00,00,20,1);
+          -webkit-tap-highlight-color: rgba(0,0,0,0);
 }
 
 table{
     width:227px !important;
+          -webkit-tap-highlight-color: rgba(0,0,0,0);
 }
 
 #t1 td{
@@ -47,11 +48,13 @@ table{
     background: rgba(20,20,20,1);
     text-align: center;
     transition: 0.1s ease-out;
+          -webkit-tap-highlight-color: rgba(0,0,0,0);
 }
 
 .n:hover{
     background: rgba(10,10,10,1);
     color:rgb(255, 72, 0);
+         
 }
 
 .n:active{
@@ -61,6 +64,8 @@ table{
 
 .s{
     background: rgb(255, 72, 0);
+ 
+          -webkit-tap-highlight-color: rgba(0,0,0,0);
     text-align: center
 }
 
@@ -73,6 +78,7 @@ table{
     background: rgb(20, 20, 20);
     text-align: center;
     color: rgb(255, 72, 0);
+          -webkit-tap-highlight-color: rgba(0,0,0,0);
 }
 
 .s2:hover{
