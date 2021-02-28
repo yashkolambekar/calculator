@@ -1,0 +1,206 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    color:white;
+    font-weight: bold;
+    font-size: 25px;
+    cursor: pointer;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgba(00,00,20,1);
+}
+
+table{
+    width:227px !important;
+}
+
+#t1 td{
+    width:60px;
+    height:80px;
+    
+}
+
+#t1{
+    border-collapse: collapse;
+}
+
+#r1{
+    background-color: rgba(30,30,30,1);
+    height: 70px !important;
+    cursor:text;
+    text-align: right;
+    padding-right: 20px;
+    
+}
+
+
+.n{
+    background: rgba(20,20,20,1);
+    text-align: center;
+    transition: 0.1s ease-out;
+}
+
+.n:hover{
+    background: rgba(10,10,10,1);
+    color:rgb(255, 72, 0);
+}
+
+.n:active{
+   color: rgba(10,10,10,1);
+   background :rgb(255, 72, 0)
+}
+
+.s{
+    background: rgb(255, 72, 0);
+    text-align: center
+}
+
+.s:hover{
+    background: rgb(189, 54, 0);
+    color:black;
+}
+
+.s2{
+    background: rgb(20, 20, 20);
+    text-align: center;
+    color: rgb(255, 72, 0);
+}
+
+.s2:hover{
+    background:rgba(10,10,10,1);
+    color:rgb(189, 54, 0);
+
+}
+
+.s2:active{
+    color:rgba(10,10,10,1);
+    background:rgb(189, 54, 0);
+    transition: 0.1s ease-out;
+}
+
+#hbd{
+    height: 100vh;
+    width:100%;
+    position:absolute;
+    background: brown;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    animation-name: rainbow;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    transition: 1s ease;
+}
+
+
+#hbd button{
+    margin-top: 20px;
+    border:none;
+    outline: none;
+    padding: 5px 10px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+
+#hbd2{
+    height: 100vh;
+    width:100%;
+    position:absolute;
+    background: brown;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    animation-name: rainbow;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    transition: 1s ease;
+}
+
+@keyframes rainbow{
+    0%{
+        background: violet;
+    }
+    10%{
+        background: indigo;
+    }
+    20%{
+        background: blue;
+    }
+    30%{
+        background: yellow;
+    }
+    40%{
+        background: orange;
+    }
+    50%{
+        background: red;
+    }
+    60%{
+        background: green;
+    }
+    70%{
+        background: turquoise;
+    }
+    80%{
+        background: springgreen;
+    }
+    90%{
+        background: purple;
+    }
+    100%{
+        background: violet;
+    }
+}
+
+#hbd2 button{
+    margin-top: 20px;
+    border:none;
+    outline: none;
+    padding: 5px 10px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+@media (max-width:425px){
+    #hbd h1{
+        font-size: 25px;
+    }
+    #hbd h3{
+        font-size: 20px;
+    }
+    #hbd button{
+        margin-top: 15px;
+        border:none;
+        outline: none;
+        padding: 3px 8px;
+        font-size: 15px;
+        border-radius: 5px;
+    }
+
+    #hbd2 h1{
+        font-size: 25px;
+    }
+    #hbd2 h3{
+        font-size: 20px;
+    }
+    #hbd2 button{
+        margin-top: 15px;
+        border:none;
+        outline: none;
+        padding: 3px 8px;
+        font-size: 15px;
+        border-radius: 5px;
+    }
+
+}
