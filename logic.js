@@ -22,7 +22,7 @@ for(item of buttons){
             screen.innerHTML = '';
         }
 
-        else if(screen.innerHTML.length < '14'&& buttonText != 'C' &&  buttonText != "="){
+        else if(screen.innerHTML.length < '14'&& buttonText != 'C' &&  buttonText != "=" && screen.innerHTML != screen.innerHTML){
             screen.innerHTML += buttonText;
         }
     }
