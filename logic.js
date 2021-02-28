@@ -1,5 +1,5 @@
 let screen = document.getElementById('r1');
-buttons = document.querySelectorAll('td');
+buttons = document.querySelectorAll('.btns');
 for(item of buttons){
     item.addEventListener('click', (e) => {
         buttonText = e.target.innerHTML
@@ -22,7 +22,7 @@ for(item of buttons){
             screen.innerHTML = '';
         }
 
-        else if(screen.innerHTML.length < '14'&& buttonText != 'C' &&  buttonText != "=" && screen.innerHTML != screen.innerHTML){
+        else if(screen.innerHTML.length < '14'&& buttonText != 'C' &&  buttonText != "="){
             screen.innerHTML += buttonText;
         }
     }
