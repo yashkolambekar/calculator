@@ -1,1 +1,1 @@
-Just an ordinary callculator with some easter eggs for my loved ones LOL
+Just an ordinary callculator with some easter eggs LOL
