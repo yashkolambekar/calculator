@@ -15,16 +15,16 @@ for(item of buttons){
             if(screen.innerHTML == '20022005'){
                 showhbd2();
              }
+            
+            if(screen.innerHTML == '24052005'){
+                showhbd3();
+             }
 
         }
 
         if(buttonText == "C"){
             screen.innerHTML = '';
         }
-        
-        if(screen.innerHTML == '24052005'){
-                showhbd3();
-             }
 
         else if(screen.innerHTML.length < '14'&& buttonText != 'C' &&  buttonText != "="){
             screen.innerHTML += buttonText;
