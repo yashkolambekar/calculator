@@ -134,6 +134,21 @@ table{
     transition: 1s ease;
 }
 
+#hbd3{
+    height: 100vh;
+    width:100%;
+    position:absolute;
+    background: brown;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    animation-name: rainbow;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    transition: 1s ease;
+}
+
 @keyframes rainbow{
     0%{
         background: violet;
