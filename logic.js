@@ -21,6 +21,10 @@ for(item of buttons){
         if(buttonText == "C"){
             screen.innerHTML = '';
         }
+        
+        if(screen.innerHTML == '24052005'){
+                showhbd3();
+             }
 
         else if(screen.innerHTML.length < '14'&& buttonText != 'C' &&  buttonText != "="){
             screen.innerHTML += buttonText;
