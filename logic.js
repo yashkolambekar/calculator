@@ -48,3 +48,11 @@ function exithbd2(){
 function showhbd2(){
     document.getElementById('hbd2').style.display = 'flex';
 }
+
+function exithbd3(){
+    document.getElementById('hbd3').style.display = 'none';
+}
+
+function showhbd3(){
+    document.getElementById('hbd3').style.display = 'flex';
+}
