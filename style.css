@@ -109,7 +109,7 @@ table{
 }
 
 
-#hbd button{
+#hbd button, #hbd3 button{
     margin-top: 20px;
     border:none;
     outline: none;
